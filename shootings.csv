@@ -1,0 +1,137 @@
+case,location,fatalities,injured,total_victims,place,age_of_shooter,race,gender,type,year
+Michigan State University shooting,"East Lansing, Michigan",3,5,8,School,43,Black,M,Mass,2023
+Half Moon Bay spree shooting,"Half Moon Bay, California",7,1,8,workplace,67,Asian,M,Spree,2023
+LA dance studio mass shooting,"Monterey Park, California",11,10,21,Other,72,Asian,M,Mass,2023
+Virginia Walmart shooting,"Chesapeake, Virginia",6,6,12,Workplace,31,Black,M,Mass,2022
+LGBTQ club shooting,"Colorado Springs, Colorado",5,25,30,Other,22,White,M,Mass,2022
+University of Virginia shooting,"Charlottesville, Virginia",3,2,5,School,22,Black,M,Mass,2022
+Raleigh spree shooting,"Hedingham, North Carolina",5,2,7,Other,15,White,M,Spree,2022
+Greenwood Park Mall shooting,"Greenwood, Indiana",3,2,5,workplace,20,White,M,Mass,2022
+Highland Park July 4 parade shooting,"Highland Park, Illinois",7,46,53,Other,21,White,M,Mass,2022
+Church potluck dinner shooting,"Birmingham, Alabama",3,0,3,religious,70,White,M,Mass,2022
+Concrete company shooting,"Smithsburg, Maryland",3,1,4,workplace,23,Other,M,Mass,2022
+Robb Elementary School massacre,"Uvalde, Texas",21,17,38,School,18,Latino,M,Mass,2022
+Buffalo supermarket massacre,"Buffalo, New York",10,3,13,workplace,18,White,M,Mass,2022
+Oxford High School shooting,"Oxford, Michigan",4,7,11,School,15,Other,M,Mass,2021
+San Jose VTA shooting,"San Jose, California",9,0,9,Workplace,57,Other,M,Mass,2021
+FedEx warehouse shooting,"Indianapolis, Indiana",8,7,15,Workplace,19,White,M,Mass,2021
+Orange office complex shooting,"Orange, California",4,1,5,Workplace,44,Other,M,Mass,2021
+Boulder supermarket shooting,"Boulder, Colorado",10,0,10,Workplace,21,Other,M,Mass,2021
+Atlanta massage parlor shootings,"Atlanta, Georgia",8,1,9,Workplace,21,White,M,Spree,2021
+Springfield convenience store shooting,"Springfield, Missouri",4,0,4,Workplace,31,Other,M,Mass,2020
+Molson Coors shooting,"Milwaukee, Wisconsin",5,0,5,Workplace,51,Black,M,Mass,2020
+Pensacola Naval base shooting,"Pensacola, Florida",3,8,11,Military,21,Other,M,Mass,2019
+OdessaUnknownMidland shooting spree,"Odessa, Texas",7,25,32,Other,36,White,M,Spree,2019
+Dayton entertainment district shooting,"Dayton, Ohio",9,27,36,Other,24,White,M,Mass,2019
+El Paso Walmart mass shooting,"El Paso, Texas",22,26,48,Workplace,21,White,M,Mass,2019
+Gilroy garlic festival shooting,"Gilroy, California",3,12,15,Other,19,Other,M,Mass,2019
+Virginia Beach municipal building shooting,"Virginia Beach, Virginia",12,4,16,Workplace,40,Black,M,Mass,2019
+Harry Pratt Co. warehouse shooting,"Aurora, Illinois",5,6,11,Workplace,45,Black,M,Mass,2019
+Pennsylvania hotel bar shooting,"State College, Pennsylvania",3,1,4,Other,21,White,M,Spree,2019
+SunTrust bank shooting,"Sebring, Florida",5,0,5,Workplace,21,White,M,Mass,2019
+Mercy Hospital shooting,"Chicago, Illinois",3,0,3,Workplace,32,Latino,M,Mass,2018
+Thousand Oaks nightclub shooting,"Thousand Oaks, California",12,22,34,Other,28,Other,M,Mass,2018
+Tree of Life synagogue shooting,"Pittsburgh, Pennsylvania",11,6,17,Religious,46,White,M,Mass,2018
+Rite Aid warehouse shooting,"Perryman, Maryland",3,3,6,Workplace,26,Black,F,Mass,2018
+T&T Trucking shooting,"Bakersfield, California",5,0,5,Workplace,54,Latino,M,Spree,2018
+Fifth Third Center shooting,"Cincinnati, Ohio",3,2,5,Workplace,29,Latino,M,Mass,2018
+Capital Gazette shooting,"Annapolis, Maryland",5,2,7,Workplace,38,White,M,Mass,2018
+Santa Fe High School shooting,"Santa Fe, Texas",10,13,23,School,17,White,M,Mass,2018
+Waffle House shooting,"Nashville, Tennessee",4,4,8,Other,29,White,M,Mass,2018
+Yountville veterans home shooting,"Yountville, California",3,0,3,Workplace,36,Asian,M,Mass,2018
+Marjory Stoneman Douglas High School shooting,"Parkland, Florida",17,17,34,School,19,White,M,Mass,2018
+Pennsylvania carwash shooting,"Melcroft, Pennsylvania",4,1,5,Other,28,White,M,Mass,2018
+Rancho Tehama shooting spree,"Rancho Tehama, California",5,10,15,Other,44,White,M,Spree,2017
+Texas First Baptist Church massacre,"Sutherland Springs, Texas",26,20,46,Religious,26,White,M,Mass,2017
+Walmart shooting in suburban Denver,"Thornton, Colorado",3,0,3,Other,47,White,M,Mass,2017
+Edgewood businees park shooting,"Edgewood, Maryland",3,3,6,Workplace,37,Black,M,Mass,2017
+Las Vegas Strip massacre,"Las Vegas, Nevada",58,546,604,Other,64,White,M,Mass,2017
+San Francisco UPS shooting,"San Francisco, California",3,2,5,Workplace,38,Asian,M,Mass,2017
+Pennsylvania supermarket shooting,"Tunkhannock, Pennsylvania",3,0,3,Workplace,24,White,M,Mass,2017
+Florida awning manufacturer shooting,"Orlando, Florida",5,0,5,Workplace,45,Other,M,Mass,2017
+Rural Ohio nursing home shooting,"Kirkersville, Ohio",3,0,3,Workplace,43,White,M,Mass,2017
+Fresno downtown shooting,"Fresno, California",3,0,3,Other,39,Black,M,Mass,2017
+Fort Lauderdale airport shooting,"Fort Lauderdale, Florida",5,6,11,Airport,26,Latino,M,Mass,2017
+Cascade Mall shooting,"Burlington, Washington",5,0,5,Other,20,Other,M,Mass,2016
+Baton Rouge police shooting,"Baton Rouge, Lousiana",3,3,6,Other,29,Black,M,Spree,2016
+Dallas police shooting,"Dallas, Texas",5,11,16,Other,25,Black,M,Mass,2016
+Orlando nightclub massacre,"Orlando, Florida",49,53,102,Other,29,Other,M,Mass,2016
+Excel Industries mass shooting,"Hesston, Kansas",3,14,17,Workplace,38,Black,M,Mass,2016
+Kalamazoo shooting spree,"Kalamazoo County, Michigan",6,2,8,Other,45,White,M,Mass,2016
+Planned Parenthood clinic,"Colorado Springs, Colorado",3,9,12,Workplace,57,White,M,Mass,2015
+Colorado Springs shooting rampage,"Colorado Springs, Colorado",3,0,3,Other,33,White,M,Mass,2015
+Umpqua Community College shooting,"Roseburg, Oregon",9,9,18,School,26,Other,M,Mass,2015
+Chattanooga military recruitment center,"Chattanooga, Tennessee",5,2,7,Military,24,Other,M,Mass,2015
+Charleston Church Shooting,"Charleston, South Carolina",9,1,10,Religious,21,White,M,Mass,2015
+Trestle Trail bridge shooting,"Menasha, Wisconsin",3,1,4,Other,27,Latino,M,Mass,2015
+MarysvilleOtherPilchuck High School shooting,"Marysville, Washington",5,1,6,School,15,Native American,M,Mass,2014
+Isla Vista mass murder,"Santa Barbara, California",6,13,19,School,22,White,M,Mass,2014
+Fort Hood shooting 2,"Fort Hood, Texas",3,12,15,Military,34,Latino,M,Mass,2014
+Alturas tribal shooting,"Alturas, California",4,2,6,Other,44,Native American,F,Spree,2014
+Washington Navy Yard shooting,"Washington, D.C.",12,8,20,Military,34,Black,M,Mass,2013
+Hialeah apartment shooting,"Hialeah, Florida",7,0,7,"Other",42,Latino,M,Mass,2013
+Santa Monica rampage,"Santa Monica, California",6,3,9,"Other",23,White,M,Mass,2013
+Pinewood Village Apartment shooting,"Federal Way, Washington",5,0,5,"Other",27,Black,M,Mass,2013
+Mohawk Valley shootings,"Herkimer County, New York",5,2,7,Other,64,White,M,Mass,2013
+Sandy Hook Elementary massacre,"Newtown, Connecticut",27,2,29,School,20,White,M,Mass,2012
+Accent Signage Systems shooting,"Minneapolis, Minnesota",7,1,8,Workplace,36,White,M,Mass,2012
+Sikh temple shooting,"Oak Creek, Wisconsin",7,3,10,Religious,40,White,M,Mass,2012
+Aurora theater shooting,"Aurora, Colorado",12,70,82,Other,24,White,M,Spree,2012
+Seattle cafe shooting,"Seattle, Washington",6,1,7,Other,40,White,M,Mass,2012
+Oikos University killings,"Oakland, California",7,3,10,School,43,Asian,M,Mass,2012
+Su Jung Health Sauna shooting,"Norcross, Georgia",5,0,5,Other,59,Asian,M,Mass,2012
+Seal Beach shooting,"Seal Beach, California",8,1,9,Other,42,White,M,Mass,2011
+IHOP shooting,"Carson City, Nevada",5,7,12,Other,32,Latino,M,Mass,2011
+Tucson shooting,"Tucson, Arizona",6,13,19,Other,22,White,M,Mass,2011
+Hartford Beer Distributor shooting,"Manchester, Connecticut",9,2,11,Workplace,34,Black,M,Mass,2010
+Coffee shop police killings,"Parkland, Washington",4,1,5,Other,37,Black,M,Mass,2009
+Fort Hood massacre,"Fort Hood, Texas",13,31,44,Military,39,Other,M,Mass,2009
+Binghamton shootings,"Binghamton, New York",14,4,18,Other,41,Asian,M,Mass,2009
+Carthage nursing home shooting,"Carthage, North Carolina",8,3,11,Other,45,White,M,Mass,2009
+Atlantis Plastics shooting,"Henderson, Kentucky",6,1,7,Workplace,25,White,M,Spree,2008
+Northern Illinois University shooting,"DeKalb, Illinois",5,21,26,School,27,White,M,Mass,2008
+Kirkwood City Council shooting,"Kirkwood, Missouri",6,2,8,Other,52,Black,M,Mass,2008
+Westroads Mall shooting,"Omaha, Nebraska",9,4,13,Other,19,White,M,Spree,2007
+Crandon shooting,"Crandon, Wisconsin",6,1,7,Other,20,White,M,Mass,2007
+Virginia Tech massacre,"Blacksburg, Virginia",32,23,55,School,23,Asian,M,Mass,2007
+Trolley Square shooting,"Salt Lake City, Utah",6,4,10,Other,18,White,M,Mass,2007
+Amish school shooting,"Lancaster County, Pennsylvania",6,5,11,School,32,White,M,Mass,2006
+Capitol Hill massacre,"Seattle, Washington",7,2,9,Other,28,White,M,Mass,2006
+Goleta postal shootings,"Goleta, California",8,0,8,Workplace,44,White,F,Mass,2006
+Red Lake massacre,"Red Lake, Minnesota",10,5,15,School,16,Native American,M,Mass,2005
+Living Church of God shooting,"Brookfield, Wisconsin",7,4,11,Religious,44,White,M,Spree,2005
+Damageplan show shooting,"Columbus, Ohio",5,7,12,Other,25,White,M,Mass,2004
+Lockheed Martin shooting,"Meridian, Mississippi",7,8,15,Workplace,48,White,M,Mass,2003
+Navistar shooting,"Melrose Park, Illinois",5,4,9,Workplace,66,Black,M,Mass,2001
+Wakefield massacre,"Wakefield, Massachusetts",7,0,7,Workplace,42,White,M,Mass,2000
+Hotel shooting,"Tampa, Florida",5,3,8,Workplace,36,Latino,M,Spree,1999
+Xerox killings,"Honolulu, Hawaii",7,0,7,Workplace,40,Asian,M,Spree,1999
+Wedgwood Baptist Church shooting,"Fort Worth, Texas",8,7,15,Religious,47,White,M,Mass,1999
+Atlanta day trading spree killings,"Atlanta, Georgia",9,13,22,Workplace,44,White,M,Mass,1999
+Columbine High School massacre,"Littleton, Colorado",13,24,37,School,17,White,M,Mass,1999
+Thurston High School shooting,"Springfield, Oregon",4,25,29,School,15,White,M,Mass,1998
+Westside Middle School killings,"Jonesboro, Arkansas",5,10,15,School,11,White,M,Mass,1998
+Connecticut Lottery shooting,"Newington, Connecticut",5,1,6,Workplace,35,White,M,Mass,1998
+Caltrans maintenance yard shooting,"Orange, California",5,2,7,Workplace,41,Latino,M,Spree,1997
+R.E. Phelon Company shooting,"Aiken, South Carolina",4,3,7,Workplace,43,Black,M,Mass,1997
+Fort Lauderdale revenge shooting,"Fort Lauderdale, Florida",6,1,7,Workplace,41,Black,M,Spree,1996
+Walter Rossler Company massacre,"Corpus Christi, Texas",6,0,6,Workplace,28,Other,M,Mass,1995
+Air Force base shooting,"Fairchild Air Force Base, Washington",5,23,28,Military,20,White,M,Mass,1994
+Chuck E. Cheese's killings,"Aurora, Colorado",4,1,5,Workplace,19,Black,M,Mass,1993
+Long Island Rail Road massacre,"Garden City, New York",6,19,25,Other,35,Black,M,Spree,1993
+Luigi's shooting,"Fayetteville, North Carolina",4,8,12,Other,22,White,M,Mass,1993
+101 California Street shootings,"San Francisco, California",9,6,15,Other,55,White,M,Mass,1993
+Watkins Glen killings,"Watkins Glen, New York",5,0,5,Other,50,White,M,Mass,1992
+Lindhurst High School shooting,"Olivehurst, California",4,10,14,School,20,White,M,Mass,1992
+Royal Oak postal shootings,"Royal Oak, Michigan",5,5,10,Workplace,31,White,M,Mass,1991
+University of Iowa shooting,"Iowa City, Iowa",6,1,7,School,28,Asian,M,Spree,1991
+Luby's massacre,"Killeen, Texas",24,20,44,Other,35,White,M,Mass,1991
+GMAC massacre,"Jacksonville, Florida",10,4,14,Other,42,Black,M,Mass,1990
+Standard Gravure shooting,"Louisville, Kentucky",9,12,21,Workplace,47,White,M,Mass,1989
+Stockton schoolyard shooting,"Stockton, California",6,29,35,School,26,White,M,Mass,1989
+ESL shooting,"Sunnyvale, California",7,4,11,Workplace,39,White,M,Mass,1988
+Shopping centers spree killings,"Palm Bay, Florida",6,14,20,Other,59,White,M,Spree,1987
+United States Postal Service shooting,"Edmond, Oklahoma",15,6,21,Workplace,44,White,M,Mass,1986
+San Ysidro McDonald's massacre,"San Ysidro, California",22,19,41,Other,41,White,M,Mass,1984
+Dallas nightclub shooting,"Dallas, Texas",6,1,7,Other,39,White,M,Mass,1984
+Welding shop shooting,"Miami, Florida",8,3,11,Other,51,White,M,Mass,1982
