@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 from simple_term_menu import TerminalMenu
 
 db = sql.connect(host="127.0.0.1",port="3306",
-user="root",password="JoiAiAxom")
+user="root",password="JoiAIAxom")
 cursor = db.cursor()
 
 cursor.execute("create database gunv;")
-curose.execute("use gunv;")
+cursor.execute("use gunv;")
 try: cursor.execute("drop table shootings;")
 except : pass
 
@@ -152,9 +152,9 @@ def MassVsSpree():
     x2 = []
     y2 = []
 
-    cursor.execute("select year, count(*) from shootings group by year having type='Mass';")
+    cursor.execute("select year, count(*), type ts from shootings group by year having ts ='Mass';")
     data1 = cursor.fetchall()
-    cursor.execute("select year, count(*) from shootings group by year having type='Spree';")
+    cursor.execute("select year, count(*), type ts from shootings group by year having ts ='Spree';")
     data2 = cursor.fetchall()
 
     for i in data1: 
