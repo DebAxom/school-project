@@ -1,64 +1,41 @@
 import os
 import readline
 import pandas as pd
-import mysql.connector as sql
+# import mysql.connector as sql
+import sqlite3 as sql
 import matplotlib.pyplot as plt
 from simple_term_menu import TerminalMenu
 
-db = sql.connect(host="127.0.0.1",port="3306",
-user="root",password="JoiAiAxom")
+# db = sql.connect(host="127.0.0.1",port="3306",user="root",password="")
+db = sql.connect('database.db')
 cursor = db.cursor()
 
-cursor.execute("create database gunv;")
-curose.execute("use gunv;")
+# cursor.execute("create database if not exists gunviolence;")
+# curose.execute("use gunviolence;")
 try: cursor.execute("drop table shootings;")
 except : pass
 
-cursor.execute('''create table if not exists shootings
-    (slno INTEGER PRIMARY KEY AUTO_INCREMENT, 
-    casename varchar(50), 
-    location varchar(50), 
-    fatalities int, 
-    injured int, 
-    total_victims int, 
-    place varchar(50) , 
-    age int, 
-    race varchar(10), 
-    gender varchar(1), 
-    type varchar(10), 
-    year int(4));''')
+cursor.execute("create table if not exists shootings (slno INTEGER PRIMARY KEY, casename varchar(50), location varchar(50), fatalities int, injured int, total_victims int, place varchar(50) , age int, race varchar(10), gender varchar(1), type varchar(10), year int(4));")
 
 df = pd.read_csv(r"shootings.csv")
 
 def convertToSQL_Table():
     for x,y in df.iterrows():
         data = tuple(y)
-        cursor.execute(f'''insert into shootings 
-        (casename, location, fatalities, injured, 
-        total_victims, place, age, race, gender, type, 
-        year) values("{data[0]}","{data[1]}",{data[2]},{data[3]},
-        {data[4]},"{data[5]}",{data[6]},"{data[7]}",
-        "{data[8]}","{data[9]}",{data[10]});''')
+        cursor.execute(f'''insert into shootings (casename, location, fatalities, injured, total_victims, place, age, race, gender, type, year) values("{data[0]}","{data[1]}",{data[2]},{data[3]},{data[4]},"{data[5]}",{data[6]},"{data[7]}","{data[8]}","{data[9]}",{data[10]});''')
         db.commit()
-
 convertToSQL_Table()
 
 def convertToCSV():
-    cursor.execute('''select casename, location, 
-    fatalities, injured, total_victims, place, 
-    age, race, gender, type, year from shootings;''')
-    newdf = pd.DataFrame(cursor.fetchall(),
-    columns=['casename', 'location', 'fatalities', 
-    'injured', 'total_victims', 'place', 'age', 
-    'race', 'gender', 'type', 'year'])
+    cursor.execute("select casename, location, fatalities, injured, total_victims, place, age, race, gender, type, year from shootings;")
+    newdf = pd.DataFrame(cursor.fetchall(),columns=['casename', 'location', 'fatalities', 'injured', 'total_victims', 'place', 'age', 'race', 'gender', 'type', 'year'])
     newdf.to_csv("edited-data.csv", index=False)
 
 def editMenu():
     print("Choose Action :")
     options = ["Add Data", "Delete Row", "Edit Data"]
 
-    terminal_menu = TerminalMenu(options,
-    menu_highlight_style=("fg_yellow",))
+    terminal_menu = TerminalMenu(options,menu_highlight_style=("fg_yellow",))
     index = terminal_menu.show()
 
     if index == None : return
@@ -89,18 +66,13 @@ def AddData():
     print('\033[1A' + '\033[K', end='')
     year = input("Enter year : ")
     print('\033[1A' + '\033[K', end='')
-    cursor.execute(f'''insert into shootings (casename, location, 
-    fatalities, injured, total_victims, place, age, race, gender, 
-    type, year) values("{casename}","{location}",{fatalities},{injured},
-    {total_victims},"{place}",{age},"{race}","{gender}","{types}",{year});''')
+    cursor.execute(f'''insert into shootings (casename, location, fatalities, injured, total_victims, place, age, race, gender, type, year) values("{casename}","{location}",{fatalities},{injured},{total_victims},"{place}",{age},"{race}","{gender}","{types}",{year});''')
     db.commit()
 
 def EditData():
     id = input("Enter the slno : ")
     print("Select the field you want to update : ")
-    options = ["casename", "location", "fatalities", "injured", 
-    "total_victims", "place", "age", "race", 
-    "gender", "type", "year"]
+    options = ["casename", "location", "fatalities", "injured", "total_victims", "place", "age", "race", "gender", "type", "year"]
     terminal_menu = TerminalMenu(options,menu_highlight_style=("fg_yellow",))
     index = terminal_menu.show()
     value = input(f"Enter new Value for {options[index]} : ")
@@ -118,9 +90,7 @@ def DeleteRow():
 
 def viewMenu():
     print("Choose Action :")
-    options = ["No of people killed by criminals of each race", 
-    "No of Shootings by Place", "No of Shootings by Year", 
-    "Mass vs Spree", "Find cases by location", "List all Data"]
+    options = ["No of people killed by criminals of each race", "No of Shootings by Place", "No of Shootings by Year", "Mass vs Spree", "Find cases by location", "List all Data"]
 
     terminal_menu = TerminalMenu(options,menu_highlight_style=("fg_yellow",))
     index = terminal_menu.show()
@@ -138,13 +108,9 @@ def viewMenu():
 
 def FindCasesByLocation():
     location = input("Enter the Location : ")
-    cursor.execute(f'''select casename, location, fatalities, injured, 
-    total_victims, place, age, race, gender, type, year from shootings 
-    where location like '%{location}%';''')
+    cursor.execute(f"select casename, location, fatalities, injured, total_victims, place, age, race, gender, type, year from shootings where location like '%{location}%';")
     data = cursor.fetchall()
-    print(pd.DataFrame(data,columns=['casename', 'location', 'fatalities', 
-    'injured', 'total_victims', 'place', 'age', 'race', 'gender',
-    'type', 'year']).to_string(index=False))
+    print(pd.DataFrame(data,columns=['casename', 'location', 'fatalities', 'injured', 'total_victims', 'place', 'age', 'race', 'gender', 'type', 'year']).to_string(index=False))
 
 def MassVsSpree():
     x1 = []
@@ -214,8 +180,7 @@ def ShootingsByYear():
     plt.show()
 
 def clear():
-    try : os.system("clear")
-    except : os.system("cls")
+    os.system("clear")
     return
 
 def help():
