@@ -207,7 +207,7 @@ if __name__ == "__main__":
 
     print(''' 
     \033[1;37mWelcome to the world of Crime !
-    \033[0;37mThis CLI based application will help you analyze data of some selected gun violence case in tge USA.
+    \033[0;37mThis CLI based application will help you analyze data of some selected gun violence case in the USA.
 
     \033[33mFollowing are the commands you can type in this CLI :
     > view // To open the view menu

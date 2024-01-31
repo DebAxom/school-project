@@ -5,16 +5,12 @@ import mysql.connector as sql
 import matplotlib.pyplot as plt
 from simple_term_menu import TerminalMenu
 
-# db = sql.connect(host="127.0.0.1",port="3306",
-# user="root",password="JoiAIAxom")
-
-db = sql.connect(host="sql.freedb.tech",port="3306",
-user="freedb_usr1i",password="g8&XTVA*r#m2$Gv")
+db = sql.connect(host="127.0.0.1",port="3306",
+user="root",password="JoiAIAxom")
 cursor = db.cursor()
 
-# cursor.execute("create database gunv;")
-# cursor.execute("use gunv;")
-cursor.execute("use freedb_DPSG2024;")
+cursor.execute("create database gunv;")
+cursor.execute("use gunv;")
 
 try: cursor.execute("drop table shootings;")
 except : pass
@@ -263,4 +259,5 @@ if __name__ == "__main__":
         if cm=="exit" : break
         try: commandsList.get(cm)()
         except Exception as e:
+            print(e)
             commandsList.get('default')()
