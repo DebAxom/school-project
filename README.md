@@ -9,3 +9,7 @@ git clone https://github.com/DebAxom/school-project.git
 ```
 pip install -r requirements.txt
 ```
+## To run the program :
+```
+python main.py
+```

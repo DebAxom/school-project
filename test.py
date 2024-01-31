@@ -1,3 +1,4 @@
+# This is the SQLITE Version of the project
 import os
 import readline
 import pandas as pd
