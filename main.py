@@ -5,12 +5,17 @@ import mysql.connector as sql
 import matplotlib.pyplot as plt
 from simple_term_menu import TerminalMenu
 
-db = sql.connect(host="127.0.0.1",port="3306",
-user="root",password="JoiAIAxom")
+# db = sql.connect(host="127.0.0.1",port="3306",
+# user="root",password="JoiAIAxom")
+
+db = sql.connect(host="sql.freedb.tech",port="3306",
+user="freedb_usr1i",password="g8&XTVA*r#m2$Gv")
 cursor = db.cursor()
 
-cursor.execute("create database gunv;")
-cursor.execute("use gunv;")
+# cursor.execute("create database gunv;")
+# cursor.execute("use gunv;")
+cursor.execute("use freedb_DPSG2024;")
+
 try: cursor.execute("drop table shootings;")
 except : pass
 
@@ -241,7 +246,7 @@ if __name__ == "__main__":
 
     print(''' 
     \033[1;37mWelcome to the world of Crime !
-    \033[0;37mThis CLI based application will help you analyze data of some selected gun violence case in tge USA.
+    \033[0;37mThis CLI based application will help you analyze data of some selected gun violence case in the USA.
 
     \033[33mFollowing are the commands you can type in this CLI :
     > view // To open the view menu
